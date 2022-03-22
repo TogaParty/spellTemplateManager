@@ -9,7 +9,7 @@ export class stmHooks{
     static setHooks(){
         
         Hooks.once("init", () => {
-            if((!game.system.id == "dnd5e") && (!game.system.id == "pf2e")){
+            if((!game.system.id == "dnd5e") && (!game.system.id == "pf2e") && (!game.system.id == "sw5e")){
                 ui.notifications.notify('SpellTemplateManager is only compatible with the DnD5E and PF2E game systems.', "error");
             }	
             spellTemplateManager.currentSettings = registerSpellTemplateManagerSettings(game.system.data.name,spellTemplateManager.currentStatus,spellTemplateManager.currentSettings,spellTemplateManager.currentData);
