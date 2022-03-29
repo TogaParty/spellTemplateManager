@@ -1,8 +1,8 @@
 {
-	"name": "spellTemplateManagerSW5e",
-	"title": "Spell Template Manager SW5e",
+	"name": "spellTemplateManager",
+	"title": "Spell Template Manager",
 	"description": "A simple module for automatically removing spell templates when spell duration is completed. Also maintains a single concentration spell per character.  Optionally supports the About Time module for handling of timing.",
-	"author": "TogaParty",
+	"author": "bitkiller0",
 	"version": "2.1.3",
 	"minimumCoreVersion": "0.8.6",
 	"compatibleCoreVersion": "0.8.8",
@@ -24,7 +24,7 @@
 		"scripts/UI.js",
 		"scripts/UIPatches.js"
 	],
-	"system": ["sw5e"],
+	"system": ["dnd5e", "pf2e", "sw5e"],
 	"languages": [
     		{
 			"lang": "en",
@@ -37,8 +37,8 @@
 			"path": "lang/es.json"
 		}
 	],
-	"url": "https://raw.githubusercontent.com/TogaParty/spellTemplateManager",
-	"manifest": "https://raw.githubusercontent.com/TogaParty/spellTemplateManager/raw/master/module.json",
-	"download": "https://github.com/TogaParty/spellTemplateManager/archive/2.1.3.zip",
-	"readme": "https://raw.githubusercontent.com/TogaParty/spellTemplateManager/master/README.md"
+	"url": "https://github.com/bitkiller0/spellTemplateManager",
+	"manifest": "https://github.com/bitkiller0/spellTemplateManager/raw/master/module.json",
+	"download": "https://github.com/TogaParty/spellTemplateManager/raw/master/archive/2.1.3.zip",
+	"readme": "https://raw.githubusercontent.com/bitkiller0/spellTemplateManager/master/README.md"
 }
