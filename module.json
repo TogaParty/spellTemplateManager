@@ -1,7 +1,7 @@
 {
-	"name": "spellTemplateManager",
-	"title": "Spell Template Manager",
-	"description": "A simple module for automatically removing spell templates when spell duration is completed. Also maintains a single concentration spell per character.  Optionally supports the About Time module for handling of timing.",
+	"name": "spellTemplateManagerSW5e",
+	"title": "Spell Template Manager SW5e",
+	"description": "Forked Spell Template Manager for SW5e support",
 	"author": "bitkiller0",
 	"version": "2.1.3",
 	"minimumCoreVersion": "0.8.6",
